@@ -1,0 +1,14 @@
+<form>
+  <div class="input-group mb-3">
+    <input type="text" name="editTodo" placeholder="Enter todo..."
+           class="form-control"  [(ngModel)]="editTodo">
+
+    <input
+      type="submit"
+      value="Submit edit"
+      class="btn btn-primary"
+      (click)="editTodoEvent()"
+    >
+  </div>
+
+</form>
